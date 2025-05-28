@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
 <footer className="p-4 md:p-8 lg:p-10 border-t">
   <div className="mx-auto max-w-screen-xl text-center">
-      <Link href="#" className="flex justify-center items-center text-2xl font-semibold p-4">
+      <Link href="https://www.linkedin.com/in/iamsuhailkhan1864/" className="flex justify-center items-center text-2xl font-semibold p-4">
           Suhail Khan 
       </Link>
       <ul className="flex flex-wrap justify-center items-center mb-6">
