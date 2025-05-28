@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 "use client";
 
 import Link from "next/link";
@@ -7,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Sun, Moon } from "lucide-react";
 
 export const Navbar = () => {
-  const { theme, setTheme, resolvedTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme(); // removed unused 'theme'
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -42,4 +41,4 @@ export const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
